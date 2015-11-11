@@ -1,9 +1,0 @@
-#include "node.h"
-class LinkedList
-{
-    Node& head;
-public:
-    LinkedList();
-    Node getFirst();
-    void addLast(Node newNode);
-};
